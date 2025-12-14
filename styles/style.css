@@ -100,7 +100,7 @@
 }
 
 .grayscale__image {
-  filter: grayscale(100%);
+  filter: blur(3px) grayscale(100%);
 }
 
 .blur__image {
@@ -141,7 +141,6 @@
 
 .card__text {
   line-height: 21px;
-  w
 }
 
 .card__group-button {
